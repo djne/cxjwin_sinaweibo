@@ -26,7 +26,7 @@ class WBWebViewController: UIViewController {
 		// load request
 		if let URLString = self.URLString {
 			var URL = NSURL(string: URLString)
-			var request = NSURLRequest(URL: URL)
+			var request = NSURLRequest(URL: URL!)
 			self.webView?.loadRequest(request)
 		} else {
 			println("url string is nil...")

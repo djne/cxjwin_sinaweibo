@@ -15,7 +15,7 @@ class AvatarView: UIImageView {
 	@IBInspectable var URLString: String? {
 	didSet {
 		if let _URLString = URLString {
-			var avatarUrl = NSURL(string: _URLString);
+            var avatarUrl:NSURL! = NSURL(string: _URLString);
 			
 			let manager = SDWebImageManager.sharedManager()
 			var cacheimage: UIImage? = manager.imageCache.imageFromDiskCacheForKey(avatarUrl.absoluteString)

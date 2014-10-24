@@ -12,6 +12,8 @@
 	<dict>
 		<key>772E2C836ED848420C308535325C8EF0DA039E39</key>
 		<string>https://github.com/cxjwin/cxjwin_sinaweibo.git</string>
+		<key>9795148FF405D2BE590FE29039803EE2C18A588C</key>
+		<string>https://github.com/djne/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SinaWeibo.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>772E2C836ED848420C308535325C8EF0DA039E39</key>
 		<string>..</string>
+		<key>9795148FF405D2BE590FE29039803EE2C18A588C</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/cxjwin/cxjwin_sinaweibo.git</string>
@@ -28,6 +32,14 @@
 	<string>772E2C836ED848420C308535325C8EF0DA039E39</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9795148FF405D2BE590FE29039803EE2C18A588C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

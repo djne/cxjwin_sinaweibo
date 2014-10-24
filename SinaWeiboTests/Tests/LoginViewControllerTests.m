@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "LoginViewController.h"
+//#import "LoginViewController.h"
 
 @interface LoginViewControllerTests : XCTestCase
 

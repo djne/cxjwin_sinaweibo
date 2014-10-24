@@ -14,7 +14,7 @@ class URLImageView: UIImageView {
     didSet {
         var avatarURL: NSURL? = nil
         if (URLString != nil) {
-            avatarURL = NSURL.URLWithString(URLString!)
+            avatarURL = NSURL(fileURLWithPath: URLString!)
         }
         
         if let tempURL = avatarURL {

@@ -51,7 +51,7 @@ class StatusViewController: UITableViewController {
 		
         self.addObservers()
         
-        self.tableView.backgroundColor = UIColor(patternImage: UIImage(named:"BackgroundTile"))
+        self.tableView.backgroundColor = UIColor(patternImage: UIImage(named:"BackgroundTile")!)
 		
         let tableFooterViewFrame = CGRect(x: 0, y: 0, width: CGRectGetWidth(self.tableView.frame), height: 1)
         self.tableView.tableFooterView = UIView(frame: tableFooterViewFrame)
